@@ -1,0 +1,16 @@
+Na prática, o systemd assume o controle assim que o kernel é O systemd é um sistema de inicialização (init system) composto por um conjunto de programas executado em segundo plano (ou seja, um daemon). Atualmente, a maioria das distribuições Linux utilizam do systemd para execução do boot.
+
+Na prática, o systemd assume o controle assim que o kernel é ativado pelo gerenciador de bootloader (Grub, tipicamente). A partir daí, são carregados todos os dispositivos (placa de rede, processador gráfico etc.) e processos que se iniciam com o sistema — estes são identificados pelo PID (process identifier).)
+
+------------------------------------
+
+systemV
+Here are the main differences between the two. SystemV is older, and goes all the way back to original Unix. SystemD is the new system that many distros are moving to. SystemD was designed to provide faster booting, better dependency management, and much more.
+
+O Unix System V, normalmente abreviado como SysV, é uma das primeiras versões comerciais do sistema operacional Unix.
+
+SystemV is older, and goes all the way back to original Unix.
+SystemD is the new system that many distros are moving to.
+SystemD was designed to provide faster booting, better dependency management, and much more.
+SystemD handles startup processes through .service files.
+SystemV handles startup processes through shell scripts in /etc/init*.
