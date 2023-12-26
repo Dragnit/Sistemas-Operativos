@@ -1,0 +1,5 @@
+104.2
+Verificando o uso de disco
+Existem dois comandos que podem ser usados para verificar quanto espaço está sendo usado e quanto resta em um sistema de arquivos. O primeiro é du, que significa “disk usage” (uso do disco).
+
+O du é recursivo por natureza. Em sua forma mais básica, o comando simplesmente mostra quantos blocos de 1 Kilobyte estão sendo usados pelo diretório atual e todos os seus subdiretórios:
